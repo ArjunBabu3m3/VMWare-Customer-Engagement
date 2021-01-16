@@ -35,7 +35,7 @@ Dealt with null values and variable data types in order to process the input dat
 
 ## Random Forest Model - Variable selection using Importance
 Used the Random Forest model's capability to show the variable importance to identify the significant variables from the variables selected after the exploratory analysis.
-![GitHub Logo](/images/RF_model.PNG)
+![GitHub Logo](https://github.com/ArjunBabu3m3/VMWare-Customer-Engagement/blob/main/images/RF_model.png)
 
 The importance is calculated through the mean decrease in gini index value and below are the top variables that came out significant.
 
