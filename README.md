@@ -35,19 +35,19 @@ Dealt with null values and variable data types in order to process the input dat
 
 ## Random Forest Model - Variable selection using Importance
 Used the Random Forest model's capability to show the variable importance to identify the significant variables from the variables selected after the exploratory analysis.
-![GitHub Logo](VMWare-Customer-Engagement/images/RF_model.PNG)
+![GitHub Logo](/images/RF_model.PNG)
 
 The importance is calculated through the mean decrease in gini index value and below are the top variables that came out significant.
 
-![GitHub Logo](VMWare-Customer-Engagement/images/significant_variables.PNG)
+![GitHub Logo](/images/significant_variables.PNG)
 
 ## LASSO Regression Model
 We built a Lasso regression model using the top 200 variables that came out significant from the Random Forest model. We performed Cross-validation to get the best cost paramater for the LASSO regression.
-![GitHub Logo](VMWare-Customer-Engagement/images/LASSO_Model.PNG) 
+![GitHub Logo](/images/LASSO_Model.PNG) 
 
 ## XGBoost Model
 We also built XGBoost model using the top 200 variables from the Random Forest model. The XGBoost model outperformed the LASSO regression in terms of accuracy and recall by 6% and 4% but understanding the model parameters is difficult. So, we went ahead with the Random forest model to better understand the model variables.
-![GitHub Logo](VMWare-Customer-Engagement/images/Xgboostresult.PNG) 
+![GitHub Logo](/images/Xgboostresult.PNG) 
 
 ## RESULTS
 1. The top most variables that control the user conversion from visitor to a customer are **product page views, first data of download, top resources and pdf downloads**. 
