@@ -43,7 +43,7 @@ The importance is calculated through the mean decrease in gini index value and b
 
 ## LASSO Regression Model
 We built a Lasso regression model using the top 200 variables that came out significant from the Random Forest model. We performed Cross-validation to get the best cost paramater for the LASSO regression.
-![GitHub Logo](/images/LASSO_Model.PNG) 
+![GitHub Logo](https://github.com/ArjunBabu3m3/VMWare-Customer-Engagement/blob/main/images/LASSO%20Model.png) 
 
 ## XGBoost Model
 We also built XGBoost model using the top 200 variables from the Random Forest model. The XGBoost model outperformed the LASSO regression in terms of accuracy and recall by 6% and 4% but understanding the model parameters is difficult. So, we went ahead with the Random forest model to better understand the model variables.
