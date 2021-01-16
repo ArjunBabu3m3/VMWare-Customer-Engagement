@@ -31,7 +31,7 @@ Project is created with:
 The data consists of 700+ variables from 500+ potential customers from VMWare's web analytics team. As the dataset is confidential, I cannot share the data I received here on GitHub as opensource. However, you can always buy the project from ISB's publication content sharing website.
 
 ## ANALYSIS
-Dealt with null values and variable data types in order to process the input data in R. Selected significant variables through thorough exploratory analysis. Then cleaned the data in R and the code file can be accessed [here](https://github.com/VipanchiKatthula/VMWare-Customer-Engagement/blob/master/code/Project%20Code.R)
+Dealt with null values and variable data types in order to process the input data in R. Selected significant variables through thorough exploratory analysis. Then cleaned the data in R and the code file can be accessed [here](https://github.com/ArjunBabu3m3/VMWare-Customer-Engagement/blob/main/VMWare_Customer-Engagement.R)
 
 ## Random Forest Model - Variable selection using Importance
 Used the Random Forest model's capability to show the variable importance to identify the significant variables from the variables selected after the exploratory analysis.
