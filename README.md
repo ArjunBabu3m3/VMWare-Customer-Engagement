@@ -39,7 +39,7 @@ Used the Random Forest model's capability to show the variable importance to ide
 
 The importance is calculated through the mean decrease in gini index value and below are the top variables that came out significant.
 
-![GitHub Logo](/images/significant_variables.PNG)
+![GitHub Logo](https://github.com/ArjunBabu3m3/VMWare-Customer-Engagement/blob/main/images/Significant%20variables.png)
 
 ## LASSO Regression Model
 We built a Lasso regression model using the top 200 variables that came out significant from the Random Forest model. We performed Cross-validation to get the best cost paramater for the LASSO regression.
