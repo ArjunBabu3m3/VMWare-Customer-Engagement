@@ -52,5 +52,5 @@ We also built XGBoost model using the top 200 variables from the Random Forest m
 ## RESULTS
 1. The top most variables that control the user conversion from visitor to a customer are **product page views, first data of download, top resources and pdf downloads**. 
 2. By mainly focusing on the visitors that view a product page more than the mean page views, the conversion rate of the comapny can be highly increased. 
-3. If a user is downloading more pdfs from the website, then it means that he is interested in the coresponding product as these pdfs are mostly product manuals and inromation brochures. 
+3. If a user is downloading more pdfs from the website, then it means that he is interested in the coresponding product as these pdfs are mostly product manuals and information brochures. 
 4. The performance of the model can be imprved by understanding the user-behavior of more and more users. The limitation currently on the project is that the data was only for ~500 users. This can be overcome by training the model on more users.
